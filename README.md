@@ -17,7 +17,7 @@ This project implements a balanced Binary Search Tree (BST) in TypeScript. It pr
 - prettyPrint(): Prints the tree in a visually structured format.
 
 ## How to Launch
-* Clone the Project
+# Clone the Project
 - git clone <URL_repository>
 - cd Balanced-BST
 - npm install && npx tsc && node dist/main.js
