@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.BSTNode = exports.Tree = void 0;
 class BSTNode {
     constructor(data) {
         this.data = data;
@@ -6,6 +8,7 @@ class BSTNode {
         this.right = null;
     }
 }
+exports.BSTNode = BSTNode;
 class Tree {
     constructor(array) {
         this.root = this.buildTree(array);
@@ -237,3 +240,4 @@ class Tree {
         this.root = this.buildTree(values);
     }
 }
+exports.Tree = Tree;
