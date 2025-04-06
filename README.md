@@ -18,7 +18,6 @@ This project implements a balanced Binary Search Tree (BST) in TypeScript. It pr
 
 ## How to Launch
 * Clone the Project
-
 - git clone <URL_repository>
 - cd Balanced-BST
 - npm install && npx tsc && node dist/main.js
